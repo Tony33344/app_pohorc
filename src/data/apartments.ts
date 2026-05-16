@@ -7,19 +7,19 @@ export const apartments: Apartment[] = [
       sl: {
         title: 'Apartma Pohorc - Macesen',
         description: 'Apartma Pohorc - Macesen se nahaja na Pohorju, 12 km od Maribora. Ponuja nastanitev z WiFi-jem in zasebnim parkiriščem. Apartma ima opremljeno kuhinjo, kopalnico s tušem in dve ločeni spalnici. Apartma ponuja razgled na Dravsko dolino in proti Ptuju.',
-        amenities: ['Opremljena kuhinja', 'Razgled na mesto', 'Vrt', 'Hišnim ljubljenčkom prijazno', 'Brezplačen WiFi', 'Terasa (28m²) z mizo in stoli', 'Kamin', 'Ležalniki', 'Brezplačno parkirišče', 'Zasebna kopalnica', 'Sobe za nekadilce'],
+        amenities: ['Opremljena kuhinja', 'Razgled na mesto', 'Vrt', 'Hišnim ljubljenčkom prijazno', 'Brezplačen WiFi', 'Terasa (28m²) z ograjo, mizo in stoli', 'Kamin', 'Ležalniki', 'Brezplačno parkirišče', 'Zasebna kopalnica', 'Sobe za nekadilce'],
         location: 'Pohorje, Maribor'
       },
       en: {
         title: 'Apartment Pohorc - Macesen',
         description: 'Apartment Pohorc - Macesen is located on Pohorje, 12 km from Maribor. It offers accommodation with WiFi and private parking. The apartment features an equipped kitchen, bathroom with shower, and two separate bedrooms. The apartment offers a view of the Drava Valley and towards Ptuj.',
-        amenities: ['Kitchen', 'City view', 'Garden', 'Pet friendly', 'Free WiFi', 'Terrace (28m²) with table and chairs', 'Fireplace', 'Sun loungers', 'Free parking', 'Private bathroom', 'Non-smoking rooms'],
+        amenities: ['Kitchen', 'City view', 'Garden', 'Pet friendly', 'Free WiFi', 'Terrace (28m²) with fence, table and chairs', 'Fireplace', 'Sun loungers', 'Free parking', 'Private bathroom', 'Non-smoking rooms'],
         location: 'Pohorje, Maribor'
       },
       de: {
         title: 'Apartment Pohorc - Macesen',
         description: 'Das Apartment Pohorc - Macesen liegt am Pohorje, 12 km von Maribor entfernt. Es bietet Unterkünfte mit WLAN und Privatparkplatz. Das Apartment verfügt über eine ausgestattete Küche, ein Bad mit Dusche und zwei separate Schlafzimmer. Das Apartment bietet einen Blick auf das Drautal und in Richtung Ptuj.',
-        amenities: ['Ausgestattete Küche', 'Stadtblick', 'Garten', 'Haustierfreundlich', 'Kostenloses WLAN', 'Terrasse (28m²) mit Tisch und Stühlen', 'Kamin', 'Sonnenliegen', 'Kostenlose Parkplätze', 'Eigenes Bad', 'Nichtraucherzimmer'],
+        amenities: ['Ausgestattete Küche', 'Stadtblick', 'Garten', 'Haustierfreundlich', 'Kostenloses WLAN', 'Terrasse (28m²) mit Zaun, Tisch und Stühlen', 'Kamin', 'Sonnenliegen', 'Kostenlose Parkplätze', 'Eigenes Bad', 'Nichtraucherzimmer'],
         location: 'Pohorje, Maribor'
       }
     },
@@ -43,19 +43,19 @@ export const apartments: Apartment[] = [
       sl: {
         title: 'Apartma Pohorc - Praprot',
         description: 'Apartma Pohorc - Praprot se nahaja na Pohorju z WiFi-jem in zasebnim parkiriščem. Apartma ponuja moderno opremljene prostore s popolnoma opremljeno kuhinjo in prostorno teraso. Apartma ponuja razgled na Dravsko dolino in proti Ptuju.',
-        amenities: ['Opremljena kuhinja', 'Razgled na mesto', 'Vrt', 'Hišnim ljubljenčkom prijazno', 'Brezplačen WiFi', 'Terasa', 'Brezplačno parkirišče', 'Zasebna kopalnica', 'Sobe za nekadilce'],
+        amenities: ['Opremljena kuhinja', 'Razgled na mesto', 'Vrt', 'Hišnim ljubljenčkom prijazno', 'Brezplačen WiFi', 'Terasa (15m²) z ograjo', 'Kamin', 'Ležalniki', 'Brezplačno parkirišče', 'Zasebna kopalnica', 'Sobe za nekadilce'],
         location: 'Pohorje, Maribor'
       },
       en: {
         title: 'Apartment Pohorc - Praprot',
         description: 'Apartment Pohorc - Praprot is located on Pohorje with WiFi and private parking. The apartment offers modern furnished spaces with a fully equipped kitchen and spacious terrace. The apartment offers a view of the Drava Valley and towards Ptuj.',
-        amenities: ['Kitchen', 'City view', 'Garden', 'Pet friendly', 'Free WiFi', 'Terrace', 'Free parking', 'Private bathroom', 'Non-smoking rooms'],
+        amenities: ['Kitchen', 'City view', 'Garden', 'Pet friendly', 'Free WiFi', 'Terrace (15m²) with fence', 'Fireplace', 'Sun loungers', 'Free parking', 'Private bathroom', 'Non-smoking rooms'],
         location: 'Pohorje, Maribor'
       },
       de: {
         title: 'Apartment Pohorc - Praprot',
         description: 'Das Apartment Pohorc - Praprot liegt am Pohorje mit WLAN und Privatparkplatz. Das Apartment bietet modern eingerichtete Räume mit einer voll ausgestatteten Küche und einer geräumigen Terrasse. Das Apartment bietet einen Blick auf das Drautal und in Richtung Ptuj.',
-        amenities: ['Ausgestattete Küche', 'Stadtblick', 'Garten', 'Haustierfreundlich', 'Kostenloses WLAN', 'Terrasse', 'Kostenlose Parkplätze', 'Eigenes Bad', 'Nichtraucherzimmer'],
+        amenities: ['Ausgestattete Küche', 'Stadtblick', 'Garten', 'Haustierfreundlich', 'Kostenloses WLAN', 'Terrasse (15m²) mit Zaun', 'Kamin', 'Sonnenliegen', 'Kostenlose Parkplätze', 'Eigenes Bad', 'Nichtraucherzimmer'],
         location: 'Pohorje, Maribor'
       }
     },
@@ -78,25 +78,25 @@ export const apartments: Apartment[] = [
     translations: {
       sl: {
         title: 'Apartma Pohorc - Kostanj',
-        description: 'Apartma Pohorc - Kostanj se nahaja na Pohorju z brezplačnim WiFi-jem in zasebnim parkiriščem. Apartma ima popolnoma opremljeno kuhinjo, kopalnico s tušem in prostorno dnevno sobo. Na voljo je tudi terasa z razgledom na čudovito naravo Pohorja.',
-        amenities: ['Celoten apartma', 'Opremljena kuhinja', 'Razgled na mesto', 'Vrt', 'Hišnim ljubljenčkom prijazno', 'Zunanji žar', 'Brezplačen WiFi', 'Terasa', 'Balkon'],
+        description: 'Apartma Pohorc - Kostanj se nahaja na Pohorju z brezplačnim WiFi-jem in zasebnim parkiriščem. Apartma ima popolnoma opremljeno kuhinjo, kopalnico s tušem in prostorno dnevno sobo. Na voljo sta dve terasi z razgledom na čudovito naravo Pohorja.',
+        amenities: ['Celoten apartma', 'Opremljena kuhinja', 'Razgled na mesto', 'Vrt', 'Hišnim ljubljenčkom prijazno', 'Zunanji žar', 'Brezplačen WiFi', 'Terasa (28m²)', 'Terasa (24m²)', 'Ležalniki', 'Balkon'],
         location: 'Pohorje, Maribor'
       },
       en: {
         title: 'Apartment Pohorc - Kostanj',
-        description: 'Apartment Pohorc - Kostanj is located on Pohorje with free WiFi and private parking. The apartment features a fully equipped kitchen, bathroom with shower, and spacious living room. A terrace with views of the beautiful Pohorje nature is also available.',
-        amenities: ['Entire place', 'Kitchen', 'City view', 'Garden', 'Pet friendly', 'BBQ facilities', 'Free WiFi', 'Terrace', 'Balcony'],
+        description: 'Apartment Pohorc - Kostanj is located on Pohorje with free WiFi and private parking. The apartment features a fully equipped kitchen, bathroom with shower, and spacious living room. Two terraces with views of the beautiful Pohorje nature are also available.',
+        amenities: ['Entire place', 'Kitchen', 'City view', 'Garden', 'Pet friendly', 'BBQ facilities', 'Free WiFi', 'Terrace (28m²)', 'Terrace (24m²)', 'Sun loungers', 'Balcony'],
         location: 'Pohorje, Maribor'
       },
       de: {
         title: 'Apartment Pohorc - Kostanj',
-        description: 'Das Apartment Pohorc - Kostanj liegt am Pohorje mit kostenlosem WLAN und Privatparkplatz. Das Apartment verfügt über eine voll ausgestattete Küche, ein Badezimmer mit Dusche und ein geräumiges Wohnzimmer. Eine Terrasse mit Blick auf die wunderschöne Natur des Pohorje ist ebenfalls vorhanden.',
-        amenities: ['Gesamte Unterkunft', 'Ausgestattete Küche', 'Stadtblick', 'Garten', 'Haustierfreundlich', 'Grillmöglichkeiten', 'Kostenloses WLAN', 'Terrasse', 'Balkon'],
+        description: 'Das Apartment Pohorc - Kostanj liegt am Pohorje mit kostenlosem WLAN und Privatparkplatz. Das Apartment verfügt über eine voll ausgestattete Küche, ein Badezimmer mit Dusche und ein geräumiges Wohnzimmer. Zwei Terrassen mit Blick auf die wunderschöne Natur des Pohorje sind ebenfalls vorhanden.',
+        amenities: ['Gesamte Unterkunft', 'Ausgestattete Küche', 'Stadtblick', 'Garten', 'Haustierfreundlich', 'Grillmöglichkeiten', 'Kostenloses WLAN', 'Terrasse (28m²)', 'Terrasse (24m²)', 'Sonnenliegen', 'Balkon'],
         location: 'Pohorje, Maribor'
       }
     },
     price: 260,
-    size: 85,
+    size: 91,
     images: [
       'https://cf.bstatic.com/xdata/images/hotel/max1024x768/688679139.jpg?k=55f62d91a0cdc903265e26b0e16218030910c745c2840b54c2776360ef40a239&o=',
       'https://cf.bstatic.com/xdata/images/hotel/max1024x768/688679067.jpg?k=3f92c58f07484800777999d41c1958c4be48244fba62d0615ecf44aa087c1fed&o=',
@@ -115,8 +115,8 @@ export const apartments: Apartment[] = [
       'https://cf.bstatic.com/xdata/images/hotel/max1024x768/688679247.jpg?k=a8fe97b16afaeb61ec9254f4531a8595ab03bf2438a3297655b926d4af5e1c47&o=',
       'https://cf.bstatic.com/xdata/images/hotel/max1024x768/688679251.jpg?k=ff114b578efc0d8f3fb4a5db9056f80dee39aa6022b76bc98584072bbc0b6ad4&o='
     ],
-    maxGuests: 4,
-    bedrooms: 1,
+    maxGuests: 10,
+    bedrooms: 3,
     bathrooms: 1,
     coordinates: {
       lat: 46.5547,
