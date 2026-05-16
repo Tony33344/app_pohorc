@@ -21,21 +21,24 @@ export function CamperPage({ language, onBack }: CamperPageProps) {
       lowSeason: 'Nizka sezona',
       highSeason: 'Visoka sezona',
       lowSeasonDate: '1.9. - 31.5.',
-      highSeasonDate: '1.6. - 31.8.'
+      highSeasonDate: '1.6. - 31.8.',
+      highSeasonNote: 'Velja tudi za praznike in počitnice'
     },
     en: {
       title: 'Seasonal Pricing',
       lowSeason: 'Low Season',
       highSeason: 'High Season',
       lowSeasonDate: 'Sep 1 - May 31',
-      highSeasonDate: 'Jun 1 - Aug 31'
+      highSeasonDate: 'Jun 1 - Aug 31',
+      highSeasonNote: 'Also applies to holidays and vacations'
     },
     de: {
       title: 'Saisonpreise',
       lowSeason: 'Nebensaison',
       highSeason: 'Hochsaison',
       lowSeasonDate: '1.9. - 31.5.',
-      highSeasonDate: '1.6. - 31.8.'
+      highSeasonDate: '1.6. - 31.8.',
+      highSeasonNote: 'Gilt auch für Feiertage und Ferien'
     }
   };
 
@@ -105,6 +108,9 @@ export function CamperPage({ language, onBack }: CamperPageProps) {
                     <td className="px-4 py-3">
                       <div className="font-semibold">{seasonalPricing[language].highSeason}</div>
                       <div className="text-sm text-gray-600">{seasonalPricing[language].highSeasonDate}</div>
+                      {seasonalPricing[language].highSeasonNote && (
+                        <div className="text-xs text-emerald-600 mt-1">{seasonalPricing[language].highSeasonNote}</div>
+                      )}
                     </td>
                     <td className="px-4 py-3 text-right font-semibold">€119</td>
                   </tr>
