@@ -23,7 +23,7 @@ export const apartments: Apartment[] = [
         location: 'Pohorje, Maribor'
       }
     },
-    price: 89,
+    price: 119,
     size: 45,
     images: [
       'https://cf.bstatic.com/xdata/images/hotel/max1024x768/594734475.jpg?k=84fba283f30712d4d4bd6dda280660bb39d74409b0bebca0a8df0f04ba36cfbc&o=&hp=1',
@@ -59,7 +59,7 @@ export const apartments: Apartment[] = [
         location: 'Pohorje, Maribor'
       }
     },
-    price: 79,
+    price: 89,
     size: 25,
     images: [
       'https://cf.bstatic.com/xdata/images/hotel/max1024x768/593842078.jpg?k=31279e0e4c91783dd00683cfce34d37cd92f98e2cf5237598038d54ad573e70c&o=&hp=1',
