@@ -79,19 +79,19 @@ export const apartments: Apartment[] = [
       sl: {
         title: 'Apartma Pohorc - Kostanj',
         description: 'Apartma Pohorc - Kostanj se nahaja na Pohorju z brezplačnim WiFi-jem in zasebnim parkiriščem. Apartma ima popolnoma opremljeno kuhinjo, kopalnico s tušem in prostorno dnevno sobo. Na voljo sta dve terasi z razgledom na čudovito naravo Pohorja.',
-        amenities: ['Celoten apartma', 'Opremljena kuhinja', 'Razgled na mesto', 'Vrt', 'Hišnim ljubljenčkom prijazno', 'Zunanji žar', 'Brezplačen WiFi', 'Terasa (28m²)', 'Terasa (24m²)', 'Ležalniki'],
+        amenities: ['Celoten apartma', 'Opremljena kuhinja', 'Razgled na mesto', 'Vrt', 'Hišnim ljubljenčkom prijazno', 'Zunanji žar', 'Brezplačen WiFi', 'Terasa 1 (28m²) z mizo in stoli', 'Terasa 2 (22m²) z mizo in stoli', 'Ležalniki'],
         location: 'Pohorje, Maribor'
       },
       en: {
         title: 'Apartment Pohorc - Kostanj',
         description: 'Apartment Pohorc - Kostanj is located on Pohorje with free WiFi and private parking. The apartment features a fully equipped kitchen, bathroom with shower, and spacious living room. Two terraces with views of the beautiful Pohorje nature are also available.',
-        amenities: ['Entire place', 'Kitchen', 'City view', 'Garden', 'Pet friendly', 'BBQ facilities', 'Free WiFi', 'Terrace (28m²)', 'Terrace (24m²)', 'Sun loungers'],
+        amenities: ['Entire place', 'Kitchen', 'City view', 'Garden', 'Pet friendly', 'BBQ facilities', 'Free WiFi', 'Terrace 1 (28m²) with table and chairs', 'Terrace 2 (22m²) with table and chairs', 'Sun loungers'],
         location: 'Pohorje, Maribor'
       },
       de: {
         title: 'Apartment Pohorc - Kostanj',
         description: 'Das Apartment Pohorc - Kostanj liegt am Pohorje mit kostenlosem WLAN und Privatparkplatz. Das Apartment verfügt über eine voll ausgestattete Küche, ein Badezimmer mit Dusche und ein geräumiges Wohnzimmer. Zwei Terrassen mit Blick auf die wunderschöne Natur des Pohorje sind ebenfalls vorhanden.',
-        amenities: ['Gesamte Unterkunft', 'Ausgestattete Küche', 'Stadtblick', 'Garten', 'Haustierfreundlich', 'Grillmöglichkeiten', 'Kostenloses WLAN', 'Terrasse (28m²)', 'Terrasse (24m²)', 'Sonnenliegen'],
+        amenities: ['Gesamte Unterkunft', 'Ausgestattete Küche', 'Stadtblick', 'Garten', 'Haustierfreundlich', 'Grillmöglichkeiten', 'Kostenloses WLAN', 'Terrasse 1 (28m²) mit Tisch und Stühlen', 'Terrasse 2 (22m²) mit Tisch und Stühlen', 'Sonnenliegen'],
         location: 'Pohorje, Maribor'
       }
     },
