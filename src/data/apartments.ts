@@ -128,21 +128,21 @@ export const apartments: Apartment[] = [
     translations: {
       sl: {
         title: 'Avtodom Renault Alkoven Blucamp',
-        description: 'Udoben avtodom Renault Alkoven Blucamp letnik 2016 za 6 oseb. Popolnoma opremljen za nepozabno pustolovščino na kolesih. Idealen za družinske počitnice ali potovanje s prijatelji.',
+        description: 'Udoben avtodom Renault Alkoven Blucamp letnik 2016 za 6 oseb. Popolnoma opremljen za nepozabno pustolovščino na kolesih. Idealen za družinske počitnice ali potovanje s prijatelji. Prevzem avtodoma je v Miklavžu na Dravskem polju.',
         amenities: ['Popolnoma opremljena kuhinja', 'Kopalnica', 'WC', 'Klimatska naprava - bivalna', 'Klimatska naprava - kabinska', 'Ogrevanje - plin - klima', 'Sončne celice', 'Hladilnik', 'Zmrzovalnik', 'Veliki prtljažni box'],
-        location: 'Pohorje, Maribor'
+        location: 'Miklavž na Dravskem polju'
       },
       en: {
         title: 'Camper Renault Alkoven Blucamp',
-        description: 'Comfortable Renault Alkoven Blucamp camper from 2016 for 6 persons. Fully equipped for an unforgettable adventure on wheels. Perfect for family vacations or traveling with friends.',
+        description: 'Comfortable Renault Alkoven Blucamp camper from 2016 for 6 persons. Fully equipped for an unforgettable adventure on wheels. Perfect for family vacations or traveling with friends. Pickup location is in Miklavž na Dravskem Polju.',
         amenities: ['Fully equipped kitchen', 'Bathroom', 'WC', 'Air conditioning - living area', 'Air conditioning - cabin', 'Heating - gas - climate', 'Solar panels', 'Refrigerator', 'Freezer', 'Large luggage box'],
-        location: 'Pohorje, Maribor'
+        location: 'Miklavž na Dravskem Polju'
       },
       de: {
         title: 'Wohnmobil Renault Alkoven Blucamp',
-        description: 'Komfortables Renault Alkoven Blucamp Wohnmobil Baujahr 2016 für 6 Personen. Komplett ausgestattet für ein unvergessliches Abenteuer auf Rädern. Perfekt für Familienurlaub oder Reisen mit Freunden.',
+        description: 'Komfortables Renault Alkoven Blucamp Wohnmobil Baujahr 2016 für 6 Personen. Komplett ausgestattet für ein unvergessliches Abenteuer auf Rädern. Perfekt für Familienurlaub oder Reisen mit Freunden. Die Übergabe erfolgt in Miklavž na Dravskem Polju.',
         amenities: ['Komplett ausgestattete Küche', 'Badezimmer', 'WC', 'Klimaanlage - Wohnbereich', 'Klimaanlage - Kabine', 'Heizung - Gas - Klima', 'Solarzellen', 'Kühlschrank', 'Gefrierschrank', 'Großer Gepäckbox'],
-        location: 'Pohorje, Maribor'
+        location: 'Miklavž na Dravskem Polju'
       }
     },
     price: 99,

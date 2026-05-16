@@ -125,6 +125,26 @@ export function CamperPage({ language, onBack }: CamperPageProps) {
             </h3>
             <BookingCalendar language={language} apartmentId="camper" />
           </div>
+
+          <div className="bg-white rounded-lg shadow-lg p-6">
+            <h3 className="text-xl font-semibold mb-4">
+              {language === 'sl' ? 'Lokacija' : language === 'de' ? 'Standort' : 'Location'}
+            </h3>
+            <div className="rounded-lg overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2770.123456789!2d15.6952065!3d46.5082628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476f7a6ba5f8e8a7:0x5ecb863fae714f04!2s2204+Miklav%C5%BE+na+Dravskem+Polju!5e0!3m2!1ssl!2ssi!4v1710337960045!5m2!1ssl!2ssi"
+                width="100%"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
+            <p className="text-sm text-gray-600 mt-3">
+              {language === 'sl' ? 'Prevzem avtodoma je v Miklavžu na Dravskem polju.' : language === 'de' ? 'Die Übergabe erfolgt in Miklavž na Dravskem Polju.' : 'Pickup location is in Miklavž na Dravskem Polju.'}
+            </p>
+          </div>
         </div>
 
         <div>
