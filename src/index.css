@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for react-datepicker */
+.react-datepicker {
+  font-family: inherit !important;
+  border-color: #e5e7eb !important;
+}
+
+.react-datepicker__header {
+  background-color: #f9fafb !important;
+  border-bottom-color: #e5e7eb !important;
+}
+
+.react-datepicker__day--disabled {
+  background-color: #fee2e2 !important;
+  color: #ef4444 !important;
+  text-decoration: line-through;
+}
+
+.react-datepicker__day--selected {
+  background-color: #059669 !important;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #059669 !important;
+}
+
+.react-datepicker__day:hover {
+  background-color: #d1fae5 !important;
+}
+
+/* Fix calendar positioning */
+.react-datepicker-popper {
+  transform: none !important;
+  inset: auto !important;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] {
+  margin-top: 0.5rem !important;
+}
+
+.react-datepicker-popper[data-placement^="top"] {
+  margin-bottom: 0.5rem !important;
+}
+
+/* Ensure calendar is centered */
+.react-datepicker-wrapper {
+  width: 100% !important;
+}
+
+.react-datepicker__month-container {
+  float: none !important;
+}
+
+.react-datepicker-popper {
+  width: max-content !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
