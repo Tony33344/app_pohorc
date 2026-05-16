@@ -73,7 +73,7 @@ function App() {
             <div className="relative h-[800px] mb-8">
               <div className="absolute inset-0">
                 <img
-                  src="/images/razgled 11h 1.1.jpg"
+                  src="/images/soncni vzhod 1.1..jpg"
                   alt="Pohorje landscape"
                   className="w-full h-full object-cover object-bottom"
                 />
