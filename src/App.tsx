@@ -73,7 +73,7 @@ function App() {
             <div className="relative h-[800px] mb-8">
               <div className="absolute inset-0">
                 <img
-                  src="https://i.ibb.co/DfxSVQM3/zima-1.png"
+                  src="/images/razgled 11h 1.1.jpg"
                   alt="Pohorje landscape"
                   className="w-full h-full object-cover object-bottom"
                 />
@@ -140,10 +140,8 @@ function App() {
                 <div className="max-w-4xl mx-auto">
                   <ImageGallery
                     images={[
-                      'https://i.ibb.co/DfxSVQM3/zima-1.png',
-                      'https://i.ibb.co/rG5DQL2D/soncni-vzhod-1-1.jpg',
-                      'https://i.ibb.co/LzbRf1sk/razgled-11h-1-1.jpg',
-                      'https://i.ibb.co/wFf20DSs/zima-razgled-oblacno-2.jpg'
+                      '/images/razgled 11h 1.1.jpg',
+                      '/images/soncni vzhod 1.1..jpg'
                     ]}
                   />
                 </div>
